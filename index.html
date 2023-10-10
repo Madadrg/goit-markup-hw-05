@@ -19,7 +19,15 @@
    </head>
 
    <body class="container">
-     <header class="global-header">
+
+    <div class="modal" is-hidden data-modal>
+        <div class="modal-content">
+            <button class="close-btn" data-modal-close>&times;</button>
+        </div>
+        </div>
+        
+    
+            <header class="global-header">
         <a href="./logo.html"
     target="_blank">
 
@@ -65,7 +73,7 @@
         <div class="image-overlay">
         <h1>EFFECTIVE SOLUTIONS FOR <br>
             YOUR BUSINESS</h1>
-            <button type="button">Request our service</button>
+            <button data-modal-open class="button">Request our service</button>
     </section>
 
     
@@ -118,7 +126,8 @@
         </ul>
 
         </section>
-
+    </div>
+    </div>
 
 
         <section class="what-we-do">
@@ -350,5 +359,7 @@
 
    
    </footer>
+
+   <script src="./js/modal.js"></script>
  </body>
  </html>
