@@ -282,10 +282,8 @@ color: #FFFFFF;
 
 .global-header .main-navigation ul {
     display: flex; 
-    width: 259px;
     justify-content: space-between;
     gap: 50px;
-    padding: 32px;
 }
 
 .nav-container {
@@ -435,7 +433,6 @@ color: #FFFFFF;
 
 .global-header {
     border-bottom: 1px solid #ececec;
-    margin-bottom: 0px;
 }
 
 .contacts-header2 {
@@ -444,8 +441,6 @@ color: #FFFFFF;
     margin-right: 225px;
     gap: 40px;
     padding-left: 376px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .address{
@@ -780,23 +775,23 @@ border-color: var(--highlight-color);
     position: fixed;
     width: 1600px;
     height: 1024px;
-    border: 1px;
-    border: 1px solid #0000001A;
+    background: #00000033;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   .modal-content {
     width: 528px;
     height: 581px;
-    top: 221px;
-    left: 536px;
     border-radius: 4px;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001F;
+    margin-bottom: 222px;
+    text-align: center;
+    
   }
 
   .is-hidden {
@@ -807,13 +802,51 @@ border-color: var(--highlight-color);
   .close-btn {
     width: 30px;
    height: 30px;
-   top: 229px;
+   margin-top: 8px;
+   margin-right: 8px;
    left: 1026px;
-   border: 1px;
    border-radius: 50%;
    border: 1px solid #0000001A;
    background-color: #FFFFFF;
    cursor: pointer;
    position: absolute;
-   right: 0;
+   right:0px;
+   font-size: 23px;
+   text-align: center;
   }
+
+  .overlay-text {
+    position: absolute;
+    margin-left: 185px;
+    margin-top: -40px;
+    transform: translate(-50%, -50%);
+    background: #2F303ACC;
+    color: #fff; 
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+     text-transform: uppercase;
+     width: 370px;
+     height: 70px;
+     display: flex;
+    justify-content: center;
+    align-items: center;   
+ }
+
+ .studio-border  {
+    
+    width: 42px;
+      height: 48px;
+      border-bottom: 3px solid #2196F3;
+   }
+
+   .main-navigation {
+    width: 259px;
+    height: 48px;
+   }
+
+   .global-header {
+    height: 115px;px;
+   }

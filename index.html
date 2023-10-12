@@ -22,7 +22,7 @@
 
     <div class="modal" is-hidden data-modal>
         <div class="modal-content">
-            <button class="close-btn" data-modal-close>&times;</button>
+            <div class="close-btn" data-modal-close>&times;</div>
         </div>
         </div>
         
@@ -38,7 +38,10 @@
 
     <nav class="main-navigation">
         <ul>
-            <li><a href="index.html" class="nav-link current">Studio</a></li>
+            <li> <div class="studio-border">
+                <a href="index.html" class="nav-link current">Studio</a>
+                </div>
+            </li>
             <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
             <li><a href="#" class= "nav-link">Contacts</a></li>
         </ul>
@@ -133,9 +136,16 @@
         <section class="what-we-do">
   <h2>What we do</h2>
    <ul>
-    <li><img src="./images/img1.jpg" alt="Website Creation" width="370" /></li>
-    <li><img src="./images/img2.jpg" alt="Phone" width="370" /></li>
-    <li><img src="./images/img3.jpg" alt="Design" width="370" /></li>
+    <li>
+        <img src="./images/img1.jpg" alt="Website Creation" width="370" class="image"/>
+        <div class="overlay-text">Desktop Apps</div>
+    </li>
+    <li><img src="./images/img2.jpg" alt="Phone" width="370" />
+        <div class="overlay-text">Mobile APPS</div>
+    </li>
+    <li><img src="./images/img3.jpg" alt="Design" width="370" />
+        <div class="overlay-text">DESIGN SOLUTIONS</div>
+    </li>
    </ul>
  </section>
 
