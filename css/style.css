@@ -387,7 +387,9 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
     padding-bottom: 94px;
-    margin-left: 140px;}
+    margin-left: 130px;
+    max-width: 1170px;
+}
 
 .types-of-projects ul {
     display: flex;
@@ -857,10 +859,6 @@ border-color: var(--highlight-color);
    footer,
    main {
 width: 100%;
-   }
-
-   .portfolio-container {
-    max-width: 1170px;
    }
 
 
