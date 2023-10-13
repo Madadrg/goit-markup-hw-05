@@ -290,7 +290,7 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 215px;
+    margin-left: 140px;
 }
 
 
@@ -338,10 +338,7 @@ color: #FFFFFF;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 1170px;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
     padding-bottom: 94px;
 }
 
@@ -386,11 +383,11 @@ color: #FFFFFF;
 
 
 .portfolio-container {
-    width: 1170px;
-    margin-left: 215px;
-    margin-right: 215px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 94px;
-}
+    margin-left: 140px;}
 
 .types-of-projects ul {
     display: flex;
@@ -500,7 +497,7 @@ padding-top: 0px;
     flex-direction: row-reverse;
     align-items: center;
     gap: 10px;
-    margin-right: 225px;
+    margin-right: 150px;
 }
 
 
@@ -518,7 +515,6 @@ padding-top: 0px;
 
 
 .social-media-team {
-    width: 206px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -563,10 +559,7 @@ padding-top: 0px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 1170px;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
     margin-bottom: 94px;
 }
 
@@ -584,9 +577,14 @@ padding-top: 0px;
    }
  
 .values-pictures {
-    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFFFF;
-    margin-left: 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: 100px;
+    margin-right: 70px;
 }
 
 .v-pictures {
@@ -865,9 +863,6 @@ width: 100%;
     max-width: 1170px;
    }
 
-   .section {
-    max-width: 1170px;
-   }
 
   .h2 {
     margin:0 auto;
