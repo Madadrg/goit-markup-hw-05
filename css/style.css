@@ -388,7 +388,6 @@ color: #FFFFFF;
     align-items: center;
     padding-bottom: 94px;
     margin-left: 130px;
-    max-width: 1170px;
 }
 
 .types-of-projects ul {
@@ -417,7 +416,6 @@ color: #FFFFFF;
   }
 
   .items {
-    flex-basis: calc((100% - 90px) / 3);
     border-bottom: 1px solid #EEEEEE;
   }
 
